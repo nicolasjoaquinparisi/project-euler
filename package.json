@@ -1,0 +1,16 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --detectOpenHandles --verbose --silent"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
